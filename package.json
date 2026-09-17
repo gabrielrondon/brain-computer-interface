@@ -9,10 +9,12 @@
   ],
   "scripts": {
     "build:wasm": "wasm-pack build crates/neuro-dsp --target web --out-dir ../../packages/core/src/wasm",
-    "build": "npm run build --workspace=apps/web",
+    "build:packages": "tsc -p packages/core/tsconfig.json && tsc -p packages/simulator/tsconfig.json && tsc -p packages/hardware/tsconfig.json",
+    "build": "npm run build:packages && npm run build --workspace=apps/web",
     "dev": "npm run dev --workspace=apps/web",
     "test:rust": "cargo test --manifest-path crates/neuro-dsp/Cargo.toml",
-    "test": "npm run test:rust"
+    "test:pipeline": "npm run build:packages && node --test packages/core/test/pipeline.test.mjs",
+    "test": "npm run test:rust && npm run test:pipeline"
   },
   "keywords": [
     "bci",

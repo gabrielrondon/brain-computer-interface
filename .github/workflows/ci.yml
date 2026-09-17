@@ -39,7 +39,7 @@ jobs:
         run: npm install
 
       - name: Run Node.js mathematical pipeline tests
-        run: node --test packages/core/test/pipeline.test.mjs
+        run: npm run test:pipeline
 
       - name: Build web application bundle
         run: npm run build
@@ -54,6 +54,9 @@ jobs:
     needs: verify-and-build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
