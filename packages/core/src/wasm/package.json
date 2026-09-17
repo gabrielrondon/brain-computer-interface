@@ -1,0 +1,20 @@
+{
+  "name": "neuro-dsp",
+  "type": "module",
+  "collaborators": [
+    "Gabriel Rondon"
+  ],
+  "description": "High-performance real-time EEG digital signal processing engine targeting WebAssembly",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "files": [
+    "neuro_dsp_bg.wasm",
+    "neuro_dsp.js",
+    "neuro_dsp.d.ts"
+  ],
+  "main": "neuro_dsp.js",
+  "types": "neuro_dsp.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@cortex-bci/simulator",
+  "version": "0.1.0",
+  "description": "Realistic biological and artifact synthetic EEG signal generator",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cortex-bci/core": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "license": "Apache-2.0"
+}

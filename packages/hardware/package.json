@@ -1,0 +1,19 @@
+{
+  "name": "@cortex-bci/hardware",
+  "version": "0.1.0",
+  "description": "Hardware drivers and transports for Web-Bluetooth (Muse 2/S) and LSL/WebSocket BCI acquisition",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cortex-bci/core": "*",
+    "@cortex-bci/simulator": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@cortex-bci/core",
+  "version": "0.1.0",
+  "description": "Typed Core DSP and Pipeline abstraction for Cortex BCI",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "license": "Apache-2.0"
+}
