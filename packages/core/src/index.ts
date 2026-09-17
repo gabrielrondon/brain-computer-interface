@@ -1,8 +1,8 @@
-export * from './types';
-export * from './fallback-dsp';
+export * from './types.js';
+export * from './fallback-dsp.js';
 
-import { TsEegPipeline } from './fallback-dsp';
-import { TelemetrySnapshot } from './types';
+import { TsEegPipeline } from './fallback-dsp.js';
+import { TelemetrySnapshot } from './types.js';
 
 export interface PipelineInstance {
   pushSample(channel: number, rawSample: number): number;

@@ -6,7 +6,7 @@ import {
   PsdReport,
   RelativeBandPowers,
   TelemetrySnapshot,
-} from './types';
+} from './types.js';
 
 /**
  * Pure TypeScript Biquad filter (Direct Form II Transposed).
