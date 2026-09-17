@@ -3,10 +3,13 @@
 High-performance real-time electroencephalography (EEG) signal processing engine in Rust and WebAssembly, coupled with a hardware-agnostic 3D cortical telemetry runtime and modular application suite.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![CI](https://github.com/gabrielrondon/brain-computer-interface/actions/workflows/ci.yml/badge.svg)](https://github.com/gabrielrondon/brain-computer-interface/actions)
 [![Rust](https://img.shields.io/badge/Rust-1.95+-black?logo=rust)](crates/neuro-dsp)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-WASM-purple?logo=webassembly)](crates/neuro-dsp)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-blue?logo=typescript)](packages/core)
 [![React](https://img.shields.io/badge/React-19-cyan?logo=react)](apps/web)
+
+Live Interactive WebGL Demo: [https://gabrielrondon.github.io/brain-computer-interface/](https://gabrielrondon.github.io/brain-computer-interface/)
 
 ---
 
