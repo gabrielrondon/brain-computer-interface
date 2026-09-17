@@ -11,6 +11,10 @@ High-performance real-time electroencephalography (EEG) signal processing engine
 
 Live Interactive WebGL Demo: [https://gabrielrondon.github.io/brain-computer-interface/](https://gabrielrondon.github.io/brain-computer-interface/)
 
+<p align="center">
+  <img src="docs/images/studio_mode.png" alt="Cortex BCI Real-time 3D Telemetry Studio" width="100%" />
+</p>
+
 ---
 
 ## Architectural Overview
@@ -123,10 +127,18 @@ The workspace includes four operational applications demonstrating real-world ap
   - **Elevated Workload ($\theta$ Dominant)**: Socratic deconstruction mode. Deconstructs complex logic into sequential micro-steps and suggests restorative pauses.
   - **Balanced Baseline**: Standard balanced engineering pair programmer.
 
+<p align="center">
+  <img src="docs/images/neuroprompt_mode.png" alt="NeuroPrompt Neuroadaptive Pair Programmer" width="100%" />
+</p>
+
 ### 3. GhostType (Assistive Speller & Speech Synthesizer)
 - Designed for individuals with severe motor limitations (ALS, quadriplegia).
 - Employs a row-column matrix scanner triggered by intentional frontal blink impulses ($> 95\mu\text{V}$ peak-to-peak deflection).
 - Integrated natural text-to-speech synthesis using the browser Web Speech API.
+
+<p align="center">
+  <img src="docs/images/ghosttype_mode.png" alt="GhostType Assistive Speller" width="100%" />
+</p>
 
 ### 4. NeuroTrigger (Physiological Event Engine)
 - Deterministic Event-Condition-Action (ECA) rule processor.
@@ -135,6 +147,10 @@ The workspace includes four operational applications demonstrating real-world ap
   - Sustained Focus ($> 2\text{s}$) $\rightarrow$ Mute system notifications.
   - Masseter Clench (EMG $> 30\text{ Hz}$) $\rightarrow$ Emergency audio mute.
 - Chronological execution timeline log.
+
+<p align="center">
+  <img src="docs/images/neurotrigger_mode.png" alt="NeuroTrigger Event Engine" width="100%" />
+</p>
 
 ---
 

@@ -14,7 +14,8 @@
     "dev": "npm run dev --workspace=apps/web",
     "test:rust": "cargo test --manifest-path crates/neuro-dsp/Cargo.toml",
     "test:pipeline": "npm run build:packages && node --test packages/core/test/pipeline.test.mjs",
-    "test": "npm run test:rust && npm run test:pipeline"
+    "test": "npm run test:rust && npm run test:pipeline",
+    "capture:screenshots": "node scripts/capture-screenshots.mjs"
   },
   "keywords": [
     "bci",
@@ -26,5 +27,8 @@
     "neuroscience"
   ],
   "author": "Gabriel Rondon",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "puppeteer-core": "^25.11.0"
+  }
 }
